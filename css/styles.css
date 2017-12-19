@@ -1,0 +1,398 @@
+/* Custom Styling for the site */
+/* Property of River Dell Regional Schools */
+
+/* Import custom font, Karla, from Google Fonts  */
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');
+
+/* Boilerplate styling */
+body {
+  font-family: Karla, sans-serif !Important;
+  background-color: #fffbf1;
+  max-height: 100%;
+  position: relative;
+  padding-right: 0px !important;
+}
+
+/* Nav elements */
+#nav {
+  padding-top: 7px;
+  padding-bottom: 0px;
+  border-bottom: .5px solid #e0ddd4;
+  color: #000;
+  background-color: inherit;
+  position: sticky;
+  font-size: 12pt;
+}
+
+/* Text styles */
+a {
+  cursor: pointer;
+  color: #000 !important;
+}
+
+p {
+  background-color: transparent;
+}
+
+#nav a {
+  border-bottom: 3px solid transparent;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+#nav a:hover {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease;
+}
+
+#nav .active {
+  border-bottom: 3px solid #000;
+  transition: all 0.2s ease;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 62pt;
+}
+
+.header-subtitle {
+  font-weight: 400;
+}
+
+.header-byline {
+
+}
+
+.header-logo {
+  max-width: 75%;
+}
+
+.section-title {
+  font-size: 36pt;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.section-divider {
+  margin: 0 auto;
+  width: 10rem;
+  align-self: center;
+  border-top: 3px solid black;
+  padding-bottom: 1rem;
+}
+
+.footer-title {
+  font-size: 14pt;
+}
+
+.footer-link {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.event-heading {
+  font-size: 20pt;
+  font-weight: 700;
+}
+
+.event-details {
+  font-size: 16pt;
+}
+
+.keynote-name {
+  font-size: 20pt;
+  font-weight: 700;
+}
+
+.keynote-details {
+  font-size: 16pt;
+}
+
+.keynote-icon {
+  padding-top: 2rem;
+  max-width: 200px;
+}
+
+.project-title {
+  padding-top: 1.5rem !important;
+  font-size: 20pt;
+  font-weight: 700;
+}
+
+.project-subtitle {
+  font-size: 16pt;
+}
+
+.project-description {
+  padding-top: 2rem
+}
+
+.hidden-link {
+  color: #000 !important;
+}
+
+.hidden-link:hover {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+/* Divs */
+#header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#header-icons {
+  padding-top: 50px !important;
+  display: inline;
+  text-align: center;
+}
+
+.section {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.section-content {
+  padding-top: 20px;
+}
+
+.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: .5px solid #e0ddd4;
+  color: #000;
+  background-color: inherit;
+  position: sticky;
+}
+
+.footer-content {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.footer-links {
+  text-align: right;
+}
+
+.project {
+  align-items: center;
+  text-align: center;
+}
+
+.project-line {
+  padding-top: 5rem;
+}
+
+.project-icon {
+  padding-bottom: 1.5rem;
+}
+
+#prize {
+  margin-left: -50px !important;
+}
+
+.prize-title {
+  font-size: 30pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: -1.25rem;
+}
+
+.prize-subtitle {
+  font-size: 20pt;
+}
+
+.prize-icon {
+  max-width: 250px !important;
+  padding-bottom: 1.5rem;
+}
+
+#keynote-placeholder {
+  padding-top: 1.5rem !important;
+}
+
+/* Icon Resizing */
+.icon {
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  width: 75px;
+}
+
+/* Google Maps Fix */
+.overlay {
+
+   background:transparent;
+   position:relative;
+   width:100%;
+   height:550px;
+   top:550px;
+   margin-top:-550px;
+}
+
+/* Bootstrap Components */
+.btn-one {
+  color: rgb(30,30,30) !important;
+  background-color: transparent;
+  border-color: rgb(0, 0, 0);;
+  border-radius: 0px;
+  border-width: 3px;
+  font-size: 30pt;
+  width: 200px;
+  font-weight: 700 !important;
+
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+
+}
+
+.btn-one:hover, .btn-one:focus, .btn-one:active, .btn-one.active, .open > .btn-one.dropdown-toggle {
+    color: #fffbf1 !important;
+  background-color: rgb(0,0,0);
+  border-color: rgb(0,0,0);
+}
+
+#rsvp {
+  padding-top: 1rem;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  min-width: 60%;
+  max-height: 100%;
+  margin-top: 25;
+  padding: 0;
+
+}
+
+.modal-header {
+  z-index: 999;
+  border-bottom-color: transparent;
+}
+
+.modal-body {
+  margin-top: -40px;
+}
+
+.modal-content {
+  height: auto;
+  min-width: 100%;
+  border-radius: 1;
+  background-color: #fffbf1;
+}
+
+.flexible {
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile Scaling */
+
+  /* iPhone 7 and phones of similar size */
+
+  /* Portrait and Landscape */
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+        .header-logo {
+          max-width: 100%;
+        }
+
+        #nav {
+          font-size: 10pt
+        }
+
+        .event-heading {
+          font-size: 16pt;
+        }
+
+        .event-details {
+          font-size: 13pt;
+        }
+
+        .project-title {
+          font-size: 18pt;
+        }
+
+        .project-subtitle {
+          font-size: 14pt;
+        }
+
+        .tba-h1 {
+          font-size: 18pt;
+
+        }
+
+        .tba-h3 {
+          font-size: 14pt;
+        }
+
+        .prize-title {
+          font-size: 20pt;
+          font-weight: 700;
+          text-transform: uppercase;
+          margin-top: -1.25rem;
+        }
+
+        .prize-subtitle {
+          font-size: 14pt;
+        }
+
+        .prize-icon {
+          max-width: 100px !important;
+          padding-bottom: 1.5rem;
+        }
+
+
+  }
+
+  /* Portrait */
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .section-title {
+      font-size: 30pt !important;
+    }
+
+  }
+
+  /* Landscape */
+  @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+    .section-title {
+      font-size: 36pt !important;
+    }
+
+
+  }
