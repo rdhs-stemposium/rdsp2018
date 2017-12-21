@@ -13,15 +13,23 @@ body {
   padding-right: 0px !important;
 }
 
+::selection {
+  background: rgba(128, 128, 128, 0.7) !important;
+}
+::-moz-selection {
+  background: rgba(128, 128, 128, 0.7);
+}
+
 /* Nav elements */
 #nav {
   padding-top: 7px;
   padding-bottom: 0px;
   border-bottom: .5px solid #e0ddd4;
   color: #000;
-  background-color: inherit;
+  background-color: rgba(255, 251, 241, 0.95);
   position: sticky;
   font-size: 12pt;
+
 }
 
 /* Text styles */
@@ -32,6 +40,7 @@ a {
 
 p {
   background-color: transparent;
+  font-size: 14pt;
 }
 
 #nav a {
@@ -49,24 +58,54 @@ a:hover {
 
 #nav .active {
   border-bottom: 3px solid #000;
-  transition: all 0.2s ease;
 }
 
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display:none;
+    color: #fff !important;
+}
+
+.btn-fab {
+  color: rgb(255,255,255) !important;
+  background-color: rgb(30,30,30);
+  border-radius: 150px;
+  border-width: 2px;
+  font-weight: 300 !important;
+  font-size: 20pt;
+
+}
+
+.btn-fab:hover {
+  color: rgb(255,255,255) !important;
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.5);
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	transition: all ease 0.2s;
+
+}
+
+
 .header-title {
-  font-weight: 700;
-  font-size: 62pt;
+  font-weight: 400;
+  /*font-size: 65pt;*/
+  font-size: 6.75vw;
 }
 
 .header-subtitle {
   font-weight: 400;
+  font-size: 2.75vw;
 }
 
-.header-byline {
-
+.header-date {
+  padding-top: 1rem;
 }
 
 .header-logo {
-  max-width: 75%;
+  max-width: 80%;
 }
 
 .section-title {
@@ -300,7 +339,8 @@ a:hover {
   height: auto;
   min-width: 100%;
   border-radius: 1;
-  background-color: #fffbf1;
+  background-color: rgb(255, 251, 241);
+
 }
 
 .flexible {
