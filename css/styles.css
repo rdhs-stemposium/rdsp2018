@@ -304,6 +304,7 @@ a:hover {
 .modal {
   text-align: center;
   padding: 0!important;
+  overflow-y: auto;
 }
 
 .modal:before {
@@ -341,6 +342,10 @@ a:hover {
   border-radius: 1;
   background-color: rgb(255, 251, 241);
 
+}
+
+.modal-open {
+  overflow-y: auto;
 }
 
 .flexible {
