@@ -9,17 +9,12 @@
           <!-- Other HTML -->
           <title>River Dell STEMposium 2018 - River Dell High School's 6th Annual STEMposium</title>
           <!--Bootstrap 4.0.0 BETA + JQuery - stylesheet and javascript-->
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
           <link rel="stylesheet" href="css/styles.css">
-          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
           <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
-          <script>
-                    $(function () {
-              $('[data-toggle="tooltip"]').tooltip()
-            })
-          </script>
 
           <!-- Favicon Crap -->
           <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/rdhs-stemposium/rdsp2017/master/favicons//apple-touch-icon.png">
@@ -233,7 +228,7 @@
               <div class="modal-header">
                 <h5 class="modal-title"></h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
+                  <i class="far fa-times-circle"></i>
                 </button>
               </div>
               <div class="modal-body">
@@ -697,10 +692,6 @@
           <i class="fas fa-arrow-up"></i>
         </a>
 
-
-        <!--- JS --->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
         <script>
         $(function() {
 
@@ -721,25 +712,30 @@
         </script>
         <script>
         $(document).ready(function(){
-     $(window).scroll(function () {
-            if ($(this).scrollTop() > 50) {
-                $('#back-to-top').fadeIn();
-            } else {
-                $('#back-to-top').fadeOut();
-            }
-        });
-        // scroll body to 0px on click
-        $('#back-to-top').click(function () {
-            $('#back-to-top').tooltip('hide');
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
-        });
+           $(window).scroll(function () {
+                  if ($(this).scrollTop() > 50) {
+                      $('#back-to-top').fadeIn();
+                  } else {
+                      $('#back-to-top').fadeOut();
+                  }
+              });
+              // scroll body to 0px on click
+              $('#back-to-top').click(function () {
+                  $('#back-to-top').tooltip('hide');
+                  $('body,html').animate({
+                      scrollTop: 0
+                  }, 800);
+                  return false;
+              });
 
-        $('#back-to-top').tooltip('show');
+              $('#back-to-top').tooltip('show');
 
-});
+      });
+              </script>
+              <script>
+                        $(function () {
+                  $('[data-toggle="tooltip"]').tooltip()
+                })
         </script>
       </body>
   </html>
