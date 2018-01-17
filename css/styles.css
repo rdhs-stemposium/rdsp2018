@@ -353,6 +353,10 @@ a:hover {
   height: 100%;
 }
 
+.tooltip.left {
+  margin-right: -1rem;
+}
+
 /* Mobile Scaling */
 
   /* iPhone 7 and phones of similar size */
