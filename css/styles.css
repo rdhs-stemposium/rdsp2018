@@ -345,8 +345,9 @@ a:hover {
 
 }
 
-.modal-open {
-  overflow-y: auto;
+.modal-backdrop.show {
+  opacity: 0.75  !important;
+  
 }
 
 .flexible {
