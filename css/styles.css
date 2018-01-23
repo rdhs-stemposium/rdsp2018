@@ -347,7 +347,7 @@ a:hover {
 
 .modal-backdrop.show {
   opacity: 0.75  !important;
-  
+
 }
 
 .flexible {
@@ -374,7 +374,7 @@ a:hover {
         }
 
         #nav {
-          font-size: 10pt
+          font-size: 9pt
         }
 
         .event-heading {
@@ -391,6 +391,11 @@ a:hover {
 
         .project-subtitle {
           font-size: 14pt;
+          padding-bottom: 3rem !important;
+        }
+
+        .project-line {
+          padding-top: 0rem;
         }
 
         .tba-h1 {
@@ -430,6 +435,15 @@ a:hover {
 
     .section-title {
       font-size: 30pt !important;
+    }
+
+    .footer {
+      z-index: 99999999999;
+    }
+
+    .back-to-top {
+      bottom: 10px;
+      right: 10px;
     }
 
   }
