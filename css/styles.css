@@ -143,12 +143,12 @@ a:hover {
 }
 
 .keynote-name {
-  font-size: 20pt;
+  font-size: 18pt;
   font-weight: 700;
 }
 
 .keynote-details {
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 .keynote-icon {
@@ -158,7 +158,7 @@ a:hover {
 
 .project-title {
   padding-top: 1.5rem !important;
-  font-size: 20pt;
+  font-size: 18pt;
   font-weight: 700;
 }
 
@@ -321,7 +321,7 @@ a:hover {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
-  min-width: 60%;
+  min-width: 50%;
   max-height: 100%;
   margin-top: 25;
   padding: 0;
@@ -374,7 +374,7 @@ a:hover {
         }
 
         #nav {
-          font-size: 9pt
+          font-size: 9.25pt
         }
 
         .event-heading {
@@ -386,7 +386,7 @@ a:hover {
         }
 
         .project-title {
-          font-size: 18pt;
+          font-size: 16pt;
         }
 
         .project-subtitle {
@@ -422,6 +422,19 @@ a:hover {
           max-width: 100px !important;
           padding-bottom: 1.5rem;
         }
+
+        p {
+          font-size: 12pt;
+        }
+
+        .keynote-name {
+          font-size: 16pt;
+        }
+
+        .keynote-details {
+          font-size: 14pt;
+        }
+
 
 
   }
