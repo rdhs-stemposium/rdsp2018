@@ -321,7 +321,7 @@ a:hover {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
-  min-width: 50%;
+  min-width: 55%;
   max-height: 100%;
   margin-top: 25;
   padding: 0;
@@ -348,6 +348,10 @@ a:hover {
 .modal-backdrop.show {
   opacity: 0.75  !important;
 
+}
+
+.modal p {
+  font-size: 12pt;
 }
 
 .flexible {
