@@ -26,9 +26,10 @@ body {
   padding-bottom: 0px;
   border-bottom: .5px solid #e0ddd4;
   color: #000;
-  background-color: rgba(255, 251, 241, 0.95);
+  background-color: rgba(255, 251, 241, 0.85);
   position: sticky;
   font-size: 12pt;
+  backdrop-filter: blur(5px);
 
 }
 
@@ -306,6 +307,7 @@ a:hover {
   text-align: center;
   padding: 0!important;
   overflow-y: auto;
+
 }
 
 .modal:before {
