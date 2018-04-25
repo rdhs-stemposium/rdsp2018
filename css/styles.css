@@ -150,7 +150,7 @@ a:hover {
 }
 
 .keynote-name {
-  font-size: 18pt;
+  font-size: 20pt;
   font-weight: 700;
 }
 
@@ -170,7 +170,7 @@ a:hover {
 }
 
 .project-subtitle {
-  font-size: 16pt;
+  font-size: 14.5pt !important;
 }
 
 .project-description {
@@ -470,6 +470,10 @@ a:hover {
     .back-to-top {
       bottom: 10px;
       right: 10px;
+    }
+
+    .modal .keynote-details {
+      font-size: 12.5pt;
     }
 
   }
