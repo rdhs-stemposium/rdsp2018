@@ -448,9 +448,10 @@ a:hover {
           font-size: 14pt;
         }
 		
-		.keynote-icon {
-		  max-width: 150px;
-		}
+	.keynote-icon {
+	  max-width: 150px;
+	  padding-top: 0 !important;
+	}
 
 
 
