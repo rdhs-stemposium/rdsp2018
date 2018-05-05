@@ -10,7 +10,6 @@ body {
   background-color: #fffbf1;
   max-height: 100%;
   position: relative;
-  padding-right: 0px !important;
 }
 
 ::selection {
@@ -178,7 +177,7 @@ a:hover {
 }
 
 .project-description {
-  padding-top: 2rem
+  padding-top: 2rem;
 }
 
 .hidden-link {
@@ -392,7 +391,7 @@ a:hover {
 
 .modal p {
   font-size: 12pt;
-  text-align: left;
+  text-align: justify;
 }
 
 .flexible {
@@ -480,9 +479,13 @@ a:hover {
           font-size: 14pt;
         }
 
-	.keynote-icon {
-	  max-width: 100px;
-	}
+      	.keynote-icon {
+      	  max-width: 100px;
+      	}
+
+        .modal p {
+          font-size: 11pt;
+        }
 
 
 
