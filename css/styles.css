@@ -10,7 +10,6 @@ body {
   background-color: #fffbf1;
   max-height: 100%;
   position: relative;
-  padding-right: 0px !important;
 }
 
 ::selection {
@@ -162,6 +161,11 @@ a:hover {
   max-width: 150px;
 }
 
+.keynote-description {
+  text-align: left;
+  font-size: 13pt;
+}
+
 .project-title {
   padding-top: 1.5rem !important;
   font-size: 18pt;
@@ -173,7 +177,7 @@ a:hover {
 }
 
 .project-description {
-  padding-top: 2rem
+  padding-top: 2rem;
 }
 
 .hidden-link {
@@ -300,9 +304,37 @@ a:hover {
 }
 
 .btn-one:hover, .btn-one:focus, .btn-one:active, .btn-one.active, .open > .btn-one.dropdown-toggle {
-    color: #fffbf1 !important;
+  color: #fffbf1 !important;
   background-color: rgb(0,0,0);
   border-color: rgb(0,0,0);
+}
+
+.btn-two {
+  color: rgb(30,30,30) !important;
+  background-color: transparent;
+  border-color: rgb(0, 0, 0);;
+  border-radius: 0px;
+  border-width: 2px;
+  font-weight: 700 !important;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+	transition: all ease 0.2s;
+
+}
+
+.btn-two:hover, .btn-two:focus, .btn-two:active, .btn-two.active, .open > .btn-two.dropdown-toggle {
+  color: #fffbf1 !important;
+  background-color: rgb(0,0,0);
+  border-color: rgb(0,0,0);
+}
+
+[data-toggle="collapse"].collapsed .if-not-collapsed {
+  display: none;
+}
+[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+  display: none;
 }
 
 #rsvp {
@@ -359,7 +391,7 @@ a:hover {
 
 .modal p {
   font-size: 12pt;
-  text-align: left;
+  text-align: justify;
 }
 
 .flexible {
@@ -447,9 +479,13 @@ a:hover {
           font-size: 14pt;
         }
 
-	.keynote-icon {
-	  max-width: 100px;
-	}
+      	.keynote-icon {
+      	  max-width: 100px;
+      	}
+
+        .modal p {
+          font-size: 11pt;
+        }
 
 
 
